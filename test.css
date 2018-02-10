@@ -1,12 +1,12 @@
 
 
 #login_bar{
-width:300px;        
+width:250px;        
 position:fixed;
 z-index:10;        
-border:1px solid black;   
-top: 20px;
-right:150px;
+border:0px solid black;   
+top: -13px;
+right:50px;
 display:inline-block;
 }
 

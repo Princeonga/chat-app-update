@@ -1,0 +1,40 @@
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.centernav {
+    height: 100%;
+    width: 160px;
+    position: relative;
+    z-index: 1;
+    top: 209;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.centernav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.centernav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 400px; /* Same as the width of the centernav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .centernav {padding-top: 15px;}
+    .centernav a {font-size: 18px;}
+}
+</style>

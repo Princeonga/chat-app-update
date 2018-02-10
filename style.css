@@ -1,11 +1,14 @@
+
 .header {
     height:70px;
    
 }
-
+body {
+	background: #eee !important;	
+}
 #header-sroll {
     position:fixed;
-    height: 90px;
+    height: 60px;
     background: lightblue;
     left:0;
     top:0;
@@ -37,23 +40,15 @@
     line-height: 35px;
     font-size: 25px;
 }
-.center {
-  margin: auto;
-  width: 95%;
-  background-color: ash;
-}
-#body {
-  position: center;
-  text-color: ash;
-  }
+
 #footer2 {
-  float: buttom;
+  float: bottom;
   background-color: lightblue;
-  height: 5em;
+  height: 3em;
+  width: 189%;
   text-align: center;
-  padding: .2em;
+  padding: .3em;
   font-size: 14px;
   overflow: hidden;
   margin: auto;
 }
-
